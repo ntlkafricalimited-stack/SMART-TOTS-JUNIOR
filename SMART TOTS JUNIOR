@@ -681,7 +681,246 @@
   <div class="copyright">
     © 2026 Smart Tots Kindergarten & Junior School. All Rights Reserved.
   </div>
+  <section style="padding:80px 8%;background:#eef7ff;">
+    <div class="section-title">
+      <h2>Smart School Portal</h2>
+      <p>Access digital learning tools, assignments, online streams, and school updates from anywhere.</p>
+    </div>
+
+    <div class="features">
+      <div class="feature-box">
+        <div class="feature-icon">📚</div>
+        <h3>Student Portal</h3>
+        <p>Students can access assignments, notes, recorded lessons, and exam results online.</p>
+      </div>
+
+      <div class="feature-box">
+        <div class="feature-icon">🎥</div>
+        <h3>Live Classes</h3>
+        <p>Integrated live streaming and virtual classes for remote learning and revision sessions.</p>
+      </div>
+
+      <div class="feature-box">
+        <div class="feature-icon">👩‍🏫</div>
+        <h3>Teacher Dashboard</h3>
+        <p>Teachers can upload assignments, manage attendance, and communicate with parents.</p>
+      </div>
+
+      <div class="feature-box">
+        <div class="feature-icon">💬</div>
+        <h3>WhatsApp Integration</h3>
+        <p>Parents receive updates, reminders, and school communication directly on WhatsApp.</p>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding:80px 8%;">
+    <div class="section-title">
+      <h2>Download Smart Tots App</h2>
+      <p>Parents and students can access school services directly from their smartphones.</p>
+    </div>
+
+    <div style="background:linear-gradient(135deg,#0b5ed7,#00a6ff);padding:50px;border-radius:35px;text-align:center;color:white;">
+      <h2 style="font-size:42px;margin-bottom:20px;">Smart Tots Mobile App</h2>
+      <p style="max-width:700px;margin:auto;line-height:1.8;opacity:0.95;">
+        Access online classes, school news, assignments, PTA updates, live streams, and announcements from your Android device.
+      </p>
+
+      <div style="margin-top:35px;display:flex;justify-content:center;gap:20px;flex-wrap:wrap;">
+        <a href="#" class="btn" style="background:white;color:#0b5ed7;">Download APK</a>
+        <a href="#contact" class="btn secondary" style="border-color:white;color:white;">Contact School</a>
+      </div>
+    </div>
+  </section>
+
 </footer>
+
+  <section style="padding:80px 8%;background:#f4f9ff;">
+    <div class="section-title">
+      <h2>How To Build The Android APK</h2>
+      <p>Follow these professional steps to convert this website into a Play Store ready Android application.</p>
+    </div>
+
+    <div class="feature-box" style="max-width:1000px;margin:auto;">
+      <h3 style="margin-bottom:20px;color:#0b5ed7;">STEP 1 — Upload Website Online</h3>
+      <p style="line-height:1.9;color:#555;">
+        Upload this HTML website to:
+        <br><br>
+        • GitHub Pages
+        <br>
+        • Netlify
+        <br>
+        • Vercel
+        <br>
+        • cPanel Hosting
+        <br><br>
+        Example Website:
+        <br>
+        https://smarttots.netlify.app
+      </p>
+
+      <h3 style="margin-top:40px;margin-bottom:20px;color:#0b5ed7;">STEP 2 — Create Android App Using Android Studio</h3>
+      <p style="line-height:1.9;color:#555;">
+        1. Install Android Studio
+        <br>
+        2. Create New Project → Empty Activity
+        <br>
+        3. Name: Smart Tots School
+        <br>
+        4. Package Name: com.smarttots.school
+        <br>
+        5. Minimum SDK: Android 7+
+      </p>
+
+      <h3 style="margin-top:40px;margin-bottom:20px;color:#0b5ed7;">STEP 3 — Add WebView Code</h3>
+
+      <div style="background:#0f172a;color:#fff;padding:25px;border-radius:20px;overflow:auto;font-size:14px;line-height:1.7;">
+&lt;WebView
+    android:id="@+id/webView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" /&gt;
+      </div>
+
+      <div style="background:#0f172a;color:#fff;padding:25px;border-radius:20px;overflow:auto;font-size:14px;line-height:1.7;margin-top:20px;">
+webView.getSettings().setJavaScriptEnabled(true);
+webView.loadUrl("https://smarttots.netlify.app");
+      </div>
+
+      <h3 style="margin-top:40px;margin-bottom:20px;color:#0b5ed7;">STEP 4 — Add School Branding</h3>
+      <p style="line-height:1.9;color:#555;">
+        Add:
+        <br>
+        • School Logo
+        <br>
+        • Splash Screen
+        <br>
+        • App Icon
+        <br>
+        • School Name
+        <br>
+        • Theme Colors
+      </p>
+
+      <h3 style="margin-top:40px;margin-bottom:20px;color:#0b5ed7;">STEP 5 — Build APK</h3>
+      <p style="line-height:1.9;color:#555;">
+        Android Studio → Build → Generate Signed Bundle/APK → APK
+      </p>
+
+      <h3 style="margin-top:40px;margin-bottom:20px;color:#0b5ed7;">STEP 6 — Publish To Google Play Store</h3>
+      <p style="line-height:1.9;color:#555;">
+        Create:
+        <br>
+        • Google Play Console Account
+        <br>
+        • App Screenshots
+        <br>
+        • Privacy Policy
+        <br>
+        • App Description
+        <br>
+        • Upload AAB/APK File
+      </p>
+
+      <div style="margin-top:40px;padding:30px;background:#e8f3ff;border-radius:25px;">
+        <h3 style="color:#0b5ed7;margin-bottom:15px;">Recommended Features For Final APK</h3>
+        <ul style="line-height:2;color:#444;padding-left:20px;">
+          <li>Push Notifications</li>
+          <li>Live Streaming</li>
+          <li>Student Login</li>
+          <li>Online Results</li>
+          <li>Homework Uploads</li>
+          <li>Offline Reading Mode</li>
+          <li>School Fees Notifications</li>
+          <li>WhatsApp Parent Support</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+<script>
+
+// Smooth Navigation
+const links = document.querySelectorAll('nav a');
+links.forEach(link => {
+  link.addEventListener('click', function(e){
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    target.scrollIntoView({behavior:'smooth'});
+  });
+});
+
+// Dynamic News System
+const newsContainer = document.querySelector('.news-grid');
+
+const dynamicNews = [
+  {
+    title: 'Coding Club Launch',
+    text: 'Smart Tots has launched a new coding and robotics club for learners.',
+    image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop'
+  },
+  {
+    title: 'Online Learning Upgrade',
+    text: 'Parents can now monitor assignments and student progress online.',
+    image: 'https://images.unsplash.com/photo-1588072432904-843af37f03ed?q=80&w=1200&auto=format&fit=crop'
+  }
+];
+
+setTimeout(() => {
+  dynamicNews.forEach(news => {
+    const card = document.createElement('div');
+    card.classList.add('news-card');
+
+    card.innerHTML = `
+      <img src="${news.image}" alt="News">
+      <div class="news-content">
+        <h3>${news.title}</h3>
+        <p>${news.text}</p>
+        <a href="#" class="btn secondary">Read More</a>
+      </div>
+    `;
+
+    newsContainer.appendChild(card);
+  });
+}, 2000);
+
+// PTA Registration Popup
+function registerPTA() {
+  const parentName = prompt('Enter Parent Name');
+
+  if(parentName){
+    alert(parentName + ' successfully registered for PTA updates.');
+    localStorage.setItem('ptaParent', parentName);
+  }
+}
+
+// Student Registration Form
+function registerStudent(){
+  const student = prompt('Enter Student Name');
+
+  if(student){
+    alert(student + ' registered successfully at Smart Tots.');
+    localStorage.setItem('studentName', student);
+  }
+}
+
+// Live Clock
+const footer = document.querySelector('.copyright');
+
+setInterval(() => {
+  const now = new Date();
+  footer.innerHTML = `© 2026 Smart Tots Kindergarten & Junior School | ${now.toLocaleTimeString()}`;
+},1000);
+
+// Online Class Button Actions
+const onlineButtons = document.querySelectorAll('.primary');
+
+onlineButtons.forEach(btn => {
+  btn.addEventListener('click', () => {
+    console.log('Opening Online Class Portal');
+  });
+});
+
+</script>
 
 </body>
 </html>
